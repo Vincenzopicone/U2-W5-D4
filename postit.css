@@ -1,0 +1,116 @@
+body {
+    background-color: grey;
+    font-family: Indie Flower;
+    font-size: 2.5em;
+}
+
+.workspace {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 50px;
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: 1.2em;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
+
+.taskYellow {
+    width: 270px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 50px;
+    padding: 30px 10px ;
+    background: linear-gradient( 0deg, rgba(189, 189, 163, 1) 0%, rgba(251, 251, 201, 1) 100%);
+    box-shadow: 5px 5px 5px black;
+    transform: rotate(-6deg);
+}
+.taskGreen {
+    width: 270px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px  50px;
+    padding: 30px 10px ;
+    background: linear-gradient( 0deg, rgba(158, 182, 160, 1) 0%, rgba(211, 248, 207, 1) 100%);
+    box-shadow: 5px 5px 5px black;
+    transform: rotate(6deg);
+}
+.taskPurple {
+    width: 270px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px  50px;
+    padding: 30px 10px ;
+    background: linear-gradient( 0deg, rgb(138, 140, 153) 0%, rgb(198, 197, 237) 100%);
+    box-shadow: 5px 5px 5px black;
+    transform: rotate(-9deg);
+} 
+.taskGreen1 {
+    width: 270px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px  50px;
+    padding: 30px 10px ;
+    background: linear-gradient( 0deg, rgba(158, 182, 160, 1) 0%, rgba(211, 248, 207, 1) 100%);
+    box-shadow: 5px 5px 5px black;
+    transform: rotate(9deg);
+}
+
+.taskYellow1 {
+    width: 270px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px  50px;
+    padding: 30px 10px ;
+    background: linear-gradient( 0deg, rgba(189, 189, 163, 1) 0%, rgba(251, 251, 201, 1) 100%);
+    box-shadow: 5px 5px 5px black;
+    transform: rotate(-6deg);
+}
+
+.taskYellow:hover {
+    scale: 1.2;
+    transform: unset;
+    z-index: 2;
+}
+
+.taskYellow1:hover {
+    scale: 1.2;
+    transform: unset;
+    z-index: 2;
+}
+
+.taskGreen1:hover {
+    scale: 1.2;
+    transform: unset;
+    z-index: 2;
+}
+
+.taskGreen:hover {
+    scale: 1.2;
+    transform: unset;
+    z-index: 2;
+}
+.taskPurple:hover {
+    scale: 1.2;
+    transform: unset;
+    z-index: 2;
+}
+
+
