@@ -53,13 +53,15 @@ i {
 
 
 .word1 {
-    animation: 5s changeWord 4s infinite;
+    animation: 5s changeWord infinite;
 }
 
 .word2 {
-    animation: 5s changeWord 3s infinite;
+    animation: 5s changeWord 1.5s infinite;
+    opacity: 0;
 }
 
 .word3 {
-    animation: 5s changeWord 5s infinite;
+    animation: 5s changeWord 3.5s infinite;
+    opacity: 0;
 }
