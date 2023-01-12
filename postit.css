@@ -114,3 +114,15 @@ p {
 }
 
 
+@keyframes incollaTask {
+    0% {
+        transform: scale(4);
+    } 100% {
+        transform: scale(1);
+    }
+}
+
+.taskGreen, .taskGreen1, .taskPurple, .taskYellow, .taskYellow1 {
+    animation: incollaTask 1s ease-in-out;  
+}
+
