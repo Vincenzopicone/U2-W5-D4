@@ -37,12 +37,14 @@ i {
         transform: translateY(-1000px);
         opacity: 0;
     } 25% {
-        opacity: 0.3;
+        transform: translateY(0);
+        opacity: 0;
     } 50% {
         transform: translateY(0);
         opacity:1;
     } 75% {
-        opacity: 0.3;
+        transform: translateY(0);
+        opacity: 0;
     }
      100% {
         transform: translateY(1000px);
@@ -53,15 +55,15 @@ i {
 
 
 .word1 {
-    animation: 5s changeWord infinite;
+    animation: 6s changeWord infinite;
 }
 
 .word2 {
-    animation: 5s changeWord 1.5s infinite;
+    animation: 6s changeWord 2s infinite;
     opacity: 0;
 }
 
 .word3 {
-    animation: 5s changeWord 3.5s infinite;
+    animation: 6s changeWord 4s infinite;
     opacity: 0;
 }

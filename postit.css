@@ -86,7 +86,7 @@ p {
 
 .taskYellow:hover {
     scale: 1.2;
-    transform: unset;
+    transform:unset;
     z-index: 2;
 }
 
@@ -123,6 +123,6 @@ p {
 }
 
 .taskGreen, .taskGreen1, .taskPurple, .taskYellow, .taskYellow1 {
-    animation: incollaTask 1s ease-in-out;  
+    animation: incollaTask 1s ease-in-out backwards;  
 }
 
